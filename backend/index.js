@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 mongoose.connect(
-  "mongodb+srv://anjaligupta2557:anjaligu@cluster0.8f1xu.mongodb.net/",
+  "MONGODB_URL",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
